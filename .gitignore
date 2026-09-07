@@ -1,0 +1,23 @@
+# Outputs / training artifacts
+outputs/
+saved_models/
+saved_result/
+*_ensemble_results/
+
+# Logs
+*.log
+
+# Checkpoints / weights
+*.pkl
+*.pt
+*.ckpt
+*.npz
+*.npy
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Misc
+.DS_Store

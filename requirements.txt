@@ -1,0 +1,21 @@
+# ============ System requirements (pre-installed on the competition platform) ============
+#   - Ubuntu 22.04, CUDA 12.4, Python 3.10
+#   - g++-12 (e.g. `apt install g++-12`)
+#   - NVIDIA driver >= 12.2 (Jittor auto-deploys its bundled CUDA 12.2 + cuDNN 8
+#     toolchain, ~/.cache/jittor/jtcuda/cuda12.2_cudnn8_linux, on first import;
+#     internet access is required on first run if the cache is absent)
+#   - Jittor 1.3.10 (pre-installed)
+#   - jittor_geometric 2.0.0 (pre-installed; NOT published on PyPI, install from
+#     source: `pip install https://github.com/JittorGeometric/JittorGeometric/archive/refs/heads/master.zip`)
+#
+# ============ Python dependencies (installed via pip) ============
+jittor==1.3.10.0
+numpy<2.0
+scipy
+scikit-learn
+tqdm
+pandas
+networkx
+fire
+pymetis
+huggingface_hub
